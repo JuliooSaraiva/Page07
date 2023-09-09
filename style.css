@@ -1,0 +1,689 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,0.47942927170868344) 1%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+footer {
+  background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,0.47942927170868344) 1%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+
+/* 1º Section */
+
+.header_conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  height: 10vh;
+  
+}
+
+.nav_conteiner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.links > li {
+  list-style: none;
+  padding: 15% 9%;
+  font-weight: bold;
+  
+}
+
+.links >li:hover {
+  background-color: orangered;
+  color: white;
+  
+}
+
+.default_button {
+  padding: 0.8rem 1.5rem ;
+  background-color: orangered;
+  border: none;
+  color: white;
+
+}
+
+
+
+/* 2º Section */
+
+.main_conteiner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.banner_conteiner {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/conteiner.jpg);
+  background-position: bottom;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  
+}
+
+.banner_conteiner > h2 {
+  color: orangered;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+
+.banner_conteiner > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 1rem 0;
+}
+
+.search_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.search_wrapper > input {
+  padding: 0.6rem 1rem;
+  border: none;
+  width: 22rem;
+  
+ 
+  
+}
+
+.search_button {
+  padding: 0.6rem 0.5rem;
+  border: none;
+  width: 7rem;
+  flex-wrap: nowrap;
+  background-color: orangered;
+  color: white;
+  
+}
+
+
+/* 3º Section */
+
+.quote_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding-left: 8rem;
+  height: 55vh;
+  
+  background: linear-gradient(90deg, rgba(36,31,0,0.47942927170868344) 1%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+  margin: 2rem;
+  width: 100%;
+  text-align: justify;
+   
+  
+}
+
+
+.quote_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: justify;
+  margin-left: 16.8rem;
+  
+}  
+
+.conteiner_numbers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 95px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: center;
+  flex-direction: column;
+}
+
+.quote_info span {
+  color: orangered;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.quote_info h2 {
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.quote_info p {
+  max-width: 100%;
+  color: rgb(1, 11, 54);
+}
+
+
+.numbers span {
+  color: orangered;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.numbers small {
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+}
+
+.quote_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vh;
+  height: 55vh;
+  background-color: orangered;
+  margin-right: 25rem;
+  
+}
+
+.quote_form input {
+  padding: 0.7rem 0.7rem;
+  width: 17rem;
+  margin: 0 2rem;
+  
+
+}
+
+.quote_form select {
+  padding: 0.7rem 0.7rem;
+  width: 17rem;
+}
+
+.quote_form button {
+  padding: 0.7rem 0.7rem;
+  border: none;
+  width: 17rem;
+  flex-wrap: nowrap;
+  background-color: rgb(1, 11, 54);
+  color: white;
+}
+
+/* 4º Section  */
+
+.card_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 29px;
+  margin: 4rem;
+}
+
+.card_planos {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.card_text span {
+  color: orangered;
+  font-weight: bold;
+  font-size: 14px;
+} 
+
+.card_text h2 {
+  color: rgb(1, 11, 54);
+  font-size: 40px;
+}
+
+.card_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.conteiner_planos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D3D3D3;
+  width: 40vh;
+  height: 55vh;
+  gap: 15px;
+}
+
+.conteiner_planos p {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+
+.conteiner_planos span {
+  background-color: orangered;
+  color: rgb(1, 11, 54);
+  padding: 1.5rem 0.8rem ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.conteiner_planos ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+  color: rgba(82, 81, 80, 0.856);
+}
+
+.conteiner_planos button {
+  padding: 0.5rem 0.3rem;
+  width: 14vh;
+  background-color: orangered;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+
+.plano_1 {
+  display: flex;
+  align-items: end;
+
+}
+
+.plano_1 small {
+  font-size: 18px;
+}
+
+
+/* 5º Section */
+
+.person img {
+  width: 11rem;
+  height: 12rem;
+}
+
+.card_person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0.7rem;
+  
+}
+
+.person {
+  background-color: #D3D3D3;
+  border-bottom: 5px solid orangered;
+}
+
+.card_person h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+  
+  
+}
+
+.person p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+
+.person small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* 6º Section */
+
+ 
+.conteiner_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 9px;
+  margin-bottom: 2.4rem;
+
+}
+
+.conteiner_title p {
+  color: orangered;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.conteiner_title h2 {
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+/*imagem principal */
+.conteiner__banner img {
+  height: auto;
+  width: 100%;
+ 
+}
+
+.conteiner__banner {
+  background-color: #D3D3D3;
+  width: 24.1rem;
+  border-top: 10px solid orangered;
+  padding-bottom: 1.5rem;
+  
+  
+}
+
+.conteiner_principal {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 4rem;
+}
+
+
+.img {
+ border-radius: 50%;
+ max-width: 1.5rem;
+ 
+}
+
+.img_icone {
+  display: flex;
+  gap: 50px;
+  margin-top: 0.8rem;
+  width: 100%;
+  padding: 0.4rem 1rem;
+}
+
+.person_icone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 0.8rem;
+ 
+}
+
+.card__text {
+  width: 100%;
+  padding: 0 1rem ;
+  
+}
+
+.card__text h1 {
+  color: rgb(1, 11, 54);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card__text p {
+  text-align: justify;
+  font-size: 12px;
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+}
+
+.card__text a {
+  display: inline;
+  color: orangered;
+  font-size: 10px;
+  padding-top: 4rem;
+
+}
+
+ 
+/*Rodapé */
+
+.conteiner_rodape {
+  background-color: #201e30;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  
+}
+
+.conteiner_principal_footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem 2rem;
+  
+}
+
+.conteiner_footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  font-size: 12px;
+  
+}
+
+.link__::before {
+  content: ">";
+  margin-right: 0.4rem;
+}
+
+.conteiner_footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem 0rem;
+  
+  color: white;
+}
+
+.icones img {
+  margin-right: 0.7rem;
+}
+
+.conteiner_2 {
+  width: 40%;
+}
+
+
+
+.links_footer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.text {
+  color: orangered;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+  font-size: 19px;
+
+}
+
+.icone_footer {
+  margin-top: 1rem;
+}
+
+.icone_footer a  {
+  color: white;
+  font-size: 25px;
+}
+
+.icone_footer img {
+  width: 22px;
+  margin: 0.2rem;
+}
+
+.conteiner_2 p {
+  color: white;
+  text-align: justify;
+  margin-bottom: 1rem;
+  max-width: 96%;
+  font-size: 12px;
+  
+}
+
+
+
+.button__ button {
+  padding: 0.5rem;
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+
+.button__ input {
+  padding: 0.7rem;
+  border: none;
+  width: 85%;
+}
+
+.button__ {
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+  width: 100%;
+}
+
+/* rodape */
+
+.rodape__ {
+  border-top: 3px solid #404040;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.rodape__ p {
+  line-height: 1.4rem;
+  color: white;
+  font-size: 10px;
+}
+
+.links_rodape a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: orangered;
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+
+.rodape__ span {
+  color: orangered;
+}
+
+.rodape__ p::before {
+  content: "©";
+  margin-right: 0.4rem;
+  color: white;
+}
+
+.links_rodape {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
